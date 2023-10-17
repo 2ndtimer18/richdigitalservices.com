@@ -1,0 +1,95 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    width: 100%;
+	height: 80px;
+	background-color: rgb(180, 180, 180);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: #000;
+}
+.menu {
+    display: flex;
+	align-items: center;
+}
+.menu a{
+        text-decoration: none;
+        color: #000;
+        font-size: 18px;
+        letter-spacing: 2px;
+        padding: 5px 12px;
+}
+.menu a:hover{
+        border-bottom: 4px solid #000;
+        transition: 0.4s;
+}
+
+.booknow a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    padding: 12px 40px;
+    background-color: #00f0ff;
+}
+.booknow a:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.body-background{
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(rph.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.body {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #fff;
+    padding-top: 250px;
+}
+.body h1
+{
+        font-size: 40px;
+        font-weight: bold;
+}
+.body h2{
+    font-size: 90px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.body h3{
+    font-size: 20px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    text-align: center;
+}
+.body p{
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.body a{
+    text-decoration: none;
+    color: #000;
+    font-size: 22px;
+    border-radius: 30px;
+    padding: 15px 60px;
+    background-color: #fff;
+}
+.body a:hover{
+    letter-spacing: 2px;
+    transition: 0.8s;
+}

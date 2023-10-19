@@ -130,9 +130,20 @@ h2{
 	text-decoration: underline;
 	transition: 0.4s;
 }
-@media (device-width: 320px) and (device-height: 568px) {
-    /* CSS styles */
-  }
-  @media (min-width: 600px) {
-    /* CSS styles */
-  }
+@media (max-width: 991px)
+{
+.container
+{
+    
+	padding: 50px;
+	margin-bottom: 40px;  
+	width: 100%;
+}
+.container .gallery
+{
+    
+	padding: 50px;
+	margin-bottom: 40px;  
+	width: 100%;
+}
+}

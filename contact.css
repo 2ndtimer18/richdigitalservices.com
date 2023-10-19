@@ -8,7 +8,7 @@
 .navbar{
 	width: 100%;
 	height: 80px;
-	background-color: rgb(180, 180, 180);
+	background: linear-gradient(rgb(119, 119, 119), rgba(0,0,0,0.7));
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -72,7 +72,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: url(rph.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(rph.jpg);
     background-size: cover;
 }
 .contact .content
